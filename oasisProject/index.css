@@ -3,7 +3,6 @@
     font-family: Nunito;
     box-sizing: border-box;
     text-decoration: none;
-    text-transform: capitalize;
 }
 html{
   font-size: 62.5%;
@@ -68,7 +67,10 @@ header{
   text-align: center;
   overflow: visible;
 }
-
+img{
+  border-radius: 50%;
+  margin-top: 5rem;
+}
 header .user .name{
   font-size: 3.5rem;
   color: #fff;
